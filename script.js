@@ -38,7 +38,7 @@ async function checkweather(city){
 
     if(data.weather[0].main == "Clouds")
     {
-      weatherIcon.src = "cloudes.png";  
+      weatherIcon.src = "clouds.png";  
     }
     else if(data.weather[0].main == "Clear"){
         weatherIcon.src = "clear.png"; 
